@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/MessageInput"
+        android:layout_width="416dp"
+        android:layout_height="145dp"
+        app:layout_constraintBottom_toBottomOf="@+id/MessageInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/MessageInputLayout"
+        app:layout_constraintVertical_bias="0.29">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <AutoCompleteTextView
+        android:id="@+id/UserDropDown"
+        android:layout_width="408dp"
+        android:layout_height="41dp"
+        android:text="AutoCompleteTextView"
+        app:layout_constraintBottom_toTopOf="@+id/MessageInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805" />
+
+    <Button
+        android:id="@+id/sendMessage"
+        android:layout_width="409dp"
+        android:layout_height="43dp"
+        android:text="Send message"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MessageInput"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/MessageInputLayout"
+        android:layout_width="409dp"
+        android:layout_height="162dp"
+        android:hint="Message"
+        app:layout_constraintBottom_toTopOf="@+id/sendMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/MessageInput" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

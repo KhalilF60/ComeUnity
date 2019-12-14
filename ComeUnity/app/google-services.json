@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1012942235856",
+    "firebase_url": "https://comeunity-4b58a.firebaseio.com",
+    "project_id": "comeunity-4b58a",
+    "storage_bucket": "comeunity-4b58a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012942235856:android:98d3094a0244030ef096d5",
+        "android_client_info": {
+          "package_name": "com.example.comeunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012942235856-a40ddeev80f81lrnf0ifv7bohpr8fmfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.comeunity",
+            "certificate_hash": "e868a594b907759b6d0e5d5a5f2fea7939182269"
+          }
+        },
+        {
+          "client_id": "1012942235856-7jeo143mllbhug75so0g49tibc6455b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7mJYFgLI0lgCfDGnDyZBhUsJh4HZzItU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012942235856-7jeo143mllbhug75so0g49tibc6455b4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
